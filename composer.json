@@ -1,0 +1,21 @@
+{
+  "name": "ftven/merger",
+  "description": "Merger with rules",
+  "license": "MIT",
+  "keywords": ["php", "merger"],
+  "authors": [
+    {
+      "name": "Thierry Thuon",
+      "email": "thierry.thuon.ext@francetv.fr"
+    }
+  ],
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "4.0.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ftven\\Merger\\": "src/Ftven/Merger/"
+    }
+  }
+}
