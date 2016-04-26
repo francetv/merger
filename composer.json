@@ -1,5 +1,5 @@
 {
-  "name": "ftven/merger",
+  "name": "ftv/merger",
   "description": "Merger with rules",
   "license": "MIT",
   "keywords": ["php", "merger"],
@@ -15,7 +15,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Ftven\\Merger\\": "src/Ftven/Merger/"
+      "Ftv\\Merger\\": "src/Ftv/Merger/"
     }
   }
 }

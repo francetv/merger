@@ -1,15 +1,15 @@
 <?php
 
-namespace Ftven\Tests\Merger;
+namespace Ftv\Tests\Merger;
 
-use Ftven\Merger\Merger;
+use Ftv\Merger\Merger;
 
 class MergerTest extends \PHPUnit_Framework_TestCase
 {
     public function testMerge()
     {
         // some rule will return some value as array, business is in rule
-        $rule = $this->getMock('Ftven\Merger\Rule\RuleInterface');
+        $rule = $this->getMock('Ftv\Merger\Rule\RuleInterface');
         $rule->expects($this->once())
             ->method('apply')
             ->with(
