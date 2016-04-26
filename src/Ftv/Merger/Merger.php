@@ -1,8 +1,8 @@
 <?php
 
-namespace Ftven\Merger;
+namespace Ftv\Merger;
 
-use Ftven\Merger\Rule\RuleInterface;
+use Ftv\Merger\Rule\RuleInterface;
 
 /**
  * Apply rules to merge to arrays

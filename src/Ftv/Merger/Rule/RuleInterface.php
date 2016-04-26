@@ -1,6 +1,6 @@
 <?php
 
-namespace Ftven\Merger\Rule;
+namespace Ftv\Merger\Rule;
 
 /**
  * A merge rule to apply when merging video data
