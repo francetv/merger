@@ -93,3 +93,5 @@ $merged = $this->container->get('app.merger')->merge($merged, $dataSource1, $dat
 
 That's it!
 
+---------------------------------------
+This project is part of [https://gitlab.ftven.net/team-infini/zoom-public](francetv zoom open source projects) (iOS, Android and Angular)
