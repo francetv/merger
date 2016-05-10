@@ -1,5 +1,7 @@
 # Ftv Merger
 
+This project is part of [francetv zoom open source projects](https://github.com/francetv/zoom-public) (iOS, Android and Angular).
+
 This component allows you to merge multiple data sources in a single array and based on business rules.
 
 ## How to install
@@ -10,7 +12,7 @@ In composer.json
 "repositories": [
     {
         "type": "vcs",
-        "url": "git@gitlab.ftven.net:team-infini/merger.git"
+        "url": "git@github.com:francetv/merger.git"
     }
 ]
 ```
@@ -92,6 +94,3 @@ $merged = $this->container->get('app.merger')->merge($merged, $dataSource1, $dat
 ```
 
 That's it!
-
----------------------------------------
-This project is part of [francetv zoom open source projects](https://gitlab.ftven.net/team-infini/zoom-public) (iOS, Android and Angular)
